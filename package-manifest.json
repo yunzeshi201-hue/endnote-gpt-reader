@@ -1,0 +1,19 @@
+{
+  ".gitignore": "4c5afe74d0808c5bcb50fa4a46c92882ce8c24769d76e3eb2577206b25c65d84",
+  "endnote-gpt-reader/agents/openai.yaml": "2e95024bbdd9eb1e9fcb4ca632defcd2b6a7af6b44c9e9af129d5148dc9ab07c",
+  "endnote-gpt-reader/references/article-to-endnote.md": "c542d01da7802ae74fca1c8e38fc9db2b699f87c274832b00f52dedf438fe6c6",
+  "endnote-gpt-reader/references/failure-and-repair.md": "fe511e190b7a9c057c33b7d2ee70e596224a740fec4c71a6bb8061b1110a4f34",
+  "endnote-gpt-reader/references/reading-and-translation.md": "323fab769722e19d08d389c8b1230e49f0a88c40fdee136f820eb15069a936aa",
+  "endnote-gpt-reader/references/reference-manifest.md": "349c4929517ee9acabd0dde4a2586501d4c460f88a48dc963ae920b16d0256b3",
+  "endnote-gpt-reader/references/windows-import.md": "ffd713eceab7d55a4be40bc0baf2b3f1793e7c992c35a605b57cdd33e32a2175",
+  "endnote-gpt-reader/references/windows-setup.md": "9ac1ffa3a031dd6c2d1aa081a67ee39e829ad1cb4697ef0c70b76ddd2211c79d",
+  "endnote-gpt-reader/scripts/endnote_reader.py": "4063f731be88c1c68baf49a0d5e58e6e38306dc06cf448e23383b54c3289f910",
+  "endnote-gpt-reader/scripts/reference_pipeline.py": "e684c5712eacbb051c29812050902325b2d7c695170a1618351bb533dc7dcd2d",
+  "endnote-gpt-reader/scripts/test_endnote_reader.py": "93ecae18c6721c40bdee617aa0d00458615e728f37e6c17ddcf251e8d863a5bc",
+  "endnote-gpt-reader/scripts/test_reference_pipeline.py": "1e68d7a5cec627664240cb3f1d3f2909b60bac564b074911a478a1b12cae0770",
+  "endnote-gpt-reader/SKILL.md": "7d10edb262aec1960fec154f5ac582c0e0cd69a805c0dc1fc60a5343d3d2243a",
+  "Install-Skill.ps1": "11dd255e35e0537756364b94ac8fbc0fbd538df9a222da4e6b0268b52011c99b",
+  "README.md": "400c251b897f523e3746fb085d49b052d9396440b5f67fe40ca578de534f77ed",
+  "VALIDATION.json": "2f3b0ebf9ea1197de700bfb60e354be9104e197418d55c327bef0bb7497a7d04",
+  "使用说明.md": "225328a59dad9353619c5cfaa57773e4cd99d5709de9b0ee2e3e67ea223dff24"
+}

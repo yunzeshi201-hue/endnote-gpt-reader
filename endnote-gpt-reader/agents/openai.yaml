@@ -1,0 +1,4 @@
+interface:
+  display_name: "EndNote GPT 阅读与入库助手"
+  short_description: "从文章查参考文献、下载并导入 EndNote，核验附件并给出失败修复办法"
+  default_prompt: "使用 $endnote-gpt-reader 读取我给的文章，核对其参考文献、下载可获取全文并导入 EndNote；未完成项给出修复办法。"

@@ -1,0 +1,49 @@
+{
+  "skill": "endnote-gpt-reader",
+  "version": "2.0",
+  "validation_date": "2026-10-30",
+  "target": "Windows local Codex",
+  "skill_structure": "passed bundled quick_validate.py with Python UTF-8 mode",
+  "unit_tests": {
+    "passed": 38,
+    "failed": 0,
+    "reader_tests": 13,
+    "reference_pipeline_tests": 25,
+    "network_in_unit_tests": "mocked"
+  },
+  "live_metadata_smoke_test": {
+    "service": "Crossref REST API",
+    "doi": "10.1038/nphys1170",
+    "response_received": true,
+    "candidate_remained_unverified": true
+  },
+  "independent_forward_test": {
+    "scope": "synthetic source PDF, three raw references to two works, before/after EndNote XML and a synthetic PDF",
+    "original_sources_unchanged": true,
+    "dedup_mapping_retained": true,
+    "same_doi_metadata_conflict_blocked": true,
+    "unverified_reference_not_exported": true,
+    "external_pdf_link_distinguished_from_library_relative_attachment": true,
+    "report_wording_issue_found_and_fixed": true,
+    "independent_targeted_recheck_passed": true,
+    "all_complete_remained_false_without_actual_endnote_ui_evidence": true
+  },
+  "publication_review": {
+    "private_articles_or_libraries_in_skill": false,
+    "real_credentials_in_skill": false,
+    "caches_and_compiled_files_excluded_from_package": true,
+    "local_probe_scripts_and_forward_fixture_excluded": true
+  },
+  "real_user_article_processed": false,
+  "real_endnote_desktop_import_tested": false,
+  "native_endnote_toolbar_button": false,
+  "independent_model_api_calls": false,
+  "limitations": [
+    "Real article and target library inputs are required to execute a user's import task.",
+    "Actual EndNote import and attachment opening require working Windows app control and EndNote.",
+    "Unavailable full texts remain explicit missing items with repair instructions.",
+    "Reference lists are extracted and identities are checked by the host; lookup candidates are not automatically confirmed.",
+    "PDF text extraction does not inspect figures or provide OCR.",
+    "RIS generation, downloaded files, XML read-back and real EndNote UI-open evidence are distinct stages."
+  ]
+}
